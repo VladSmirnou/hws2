@@ -1,0 +1,30 @@
+.App {
+    --header_height: 60px;
+}
+
+.hw {
+
+}
+
+.hw > div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.hw > div:last-child {
+    min-height: 40px;
+}
+
+.hw > div:first-child > * {
+    flex: 1;
+}
+
+.hwTitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
