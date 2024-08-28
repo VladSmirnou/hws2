@@ -2,12 +2,15 @@
 }
 
 .inputAndButtonContainer {
+    display: flex;
+    column-gap: 12px;
 }
 
 .error {
 }
 
 .input {
+    height: 36px;
 }
 
 .input:focus {
@@ -17,6 +20,14 @@
 }
 
 .button {
+    width: 78px;
+    background-color: #0066CC;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 36px;
 }
 
 .button:focus {
