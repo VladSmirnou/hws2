@@ -8,7 +8,6 @@
 
 .hw > div:first-child {
     display: flex;
-    flex-direction: column;
 }
 
 .hw > div:last-child {
