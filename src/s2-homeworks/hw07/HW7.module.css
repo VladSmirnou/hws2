@@ -1,2 +1,6 @@
 .container {
+    padding-left: 70px;
+    display: grid;
+    column-gap: 110px;
+    grid-template-columns: minmax(180px, auto) 1fr;
 }

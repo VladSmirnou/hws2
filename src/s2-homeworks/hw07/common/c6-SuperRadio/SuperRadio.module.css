@@ -1,4 +1,8 @@
 .radio {
+    margin-right: 11px;
+    accent-color: black;
+    height: 24px;
+    width: 24px;
 }
 
 .radio::before {
@@ -9,7 +13,17 @@
 }
 
 .label {
+    display: flex;
+    align-items: center;
 }
 
 .options {
+    display: grid;
+    row-gap: 17px;
+}
+
+.span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
 }

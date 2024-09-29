@@ -6,17 +6,17 @@
 
 }
 
-.hw > div:first-child {
+/* .hw > div:first-child {
     display: flex;
-}
+} */
 
-.hw > div:last-child {
+/* .hw > div:last-child {
     min-height: 40px;
-}
+} */
 
-.hw > div:first-child > * {
+/* .hw > div:first-child > * {
     flex: 1;
-}
+} */
 
 .hwTitle {
     font-family: 'Montserrat';
