@@ -55,7 +55,7 @@ export const friendMessage0: MessageType = {
 const HW1 = () => {
     console.log(s2)
     return (
-        <div id={'hw1'} className={s2.container}>
+        <div id={'hw1'} className={s2['hw1-container']}>
             <div className={s2.hwTitle}>Hometask №1</div>
             <div className={s2.hw}>
                 {/*проверка отображения (не менять)*/}

@@ -21,10 +21,16 @@
     margin-bottom: 10px;
 }
 
-.container {
+.hw1-container {
     margin: 0 auto;
     max-width: 1140px;
-    margin-bottom: 69px;
+    margin-bottom: 37px;
+}
+
+.hw2-container {
+    margin: 0 auto;
+    max-width: 1140px;
+    margin-bottom: 37px;
 }
 
 .initialMessages {
