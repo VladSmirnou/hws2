@@ -2,21 +2,9 @@
     --header_height: 60px;
 }
 
-.hw {
-
+.hw > div:nth-last-child(n + 2) {
+    margin-bottom: 24px;
 }
-
-/* .hw > div:first-child {
-    display: flex;
-} */
-
-/* .hw > div:last-child {
-    min-height: 40px;
-} */
-
-/* .hw > div:first-child > * {
-    flex: 1;
-} */
 
 .hwTitle {
     font-family: 'Montserrat';
@@ -27,3 +15,14 @@
     color: #000000;
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+    margin-bottom: 69px;
+}
+
+.initialMessages {
+    display: grid;
+    row-gap: 30px;
+    margin-bottom: 30px !important;
+}

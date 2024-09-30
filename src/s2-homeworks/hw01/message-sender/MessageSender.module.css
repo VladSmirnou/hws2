@@ -2,16 +2,48 @@
   display: flex;
   column-gap: 44px;
   margin-top: 56px;
+  min-height: 40px;
+  position: relative;
 }
 
 .textarea {
-  flex-grow: 1;
-  height: 40px;
+  background-color: #F5F7FB;
+  max-height: 80px;
+  min-height: 100%;
+  padding: 12px 24px;
+
+  border-radius: 20px;
+  border: none;
+
+  resize: none;
+  overflow: hidden;
+  
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 164px;
+}
+
+.textarea::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
 }
 
 .button {
   width: 120px;
+  border: none;
+  color: white;
+  background-color: #0066CC;
   height: 40px;
+  align-self: flex-end;
+  margin-left: auto;
+  border-radius: 20px;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.5px;
 }
 
 .button:hover {
