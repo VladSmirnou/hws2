@@ -3,6 +3,7 @@
     accent-color: black;
     height: 24px;
     width: 24px;
+    flex: 0 0 auto;
 }
 
 .radio::before {
@@ -23,7 +24,9 @@
 }
 
 .span {
+    font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
     line-height: 19.5px;
+    text-wrap: nowrap;
 }

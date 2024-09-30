@@ -1,6 +1,7 @@
 .container {
-    padding-left: 70px;
+    padding-top: 32px;
+    padding-bottom: 199px;
     display: grid;
-    column-gap: 110px;
-    grid-template-columns: minmax(180px, auto) 1fr;
+    column-gap: 123px;
+    grid-template-columns: minmax(165px, auto) 1fr;
 }

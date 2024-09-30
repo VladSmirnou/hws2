@@ -50,6 +50,12 @@
     margin-bottom: 37px;
 }
 
+.hw7-container {
+    margin: 0 auto;
+    max-width: 1140px;
+    margin-bottom: 37px;
+}
+
 .initialMessages {
     display: grid;
     row-gap: 30px;
