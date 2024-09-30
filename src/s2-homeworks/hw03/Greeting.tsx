@@ -26,7 +26,6 @@ const Greeting: React.FC<GreetingPropsType> = (
     } // деструктуризация пропсов
 ) => {
     const inputClass = s.input + ' ' + (error ? s.errorInput : ''); // need to fix with (?:)
-    console.log(s.input, s.errorInput)
     return (
         <div id={'hw3-form'} className={s.greetingForm}>
             <div className={s.text}>
@@ -46,7 +45,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                         onKeyDown={onEnter}
                         onBlur={onBlur}
                     />
-                    <div id={'hw3-error'} className={s.error}>
+                    <div id={'hw3-error'} className={error ? s.error : ''}>
                         {error}
                     </div>
                 </div>
@@ -61,11 +60,11 @@ const Greeting: React.FC<GreetingPropsType> = (
                 </button>
             </div>
 
-            {lastUserName && (
-                <div className={s.greeting}>
+            {(lastUserName && !error) && 
+                <div className={lastUserName ? s.greeting : ''}>
                     Привет <span id={'hw3-last-user'}>{lastUserName}</span>!
                 </div>
-            )}
+            }
         </div>
     )
 }

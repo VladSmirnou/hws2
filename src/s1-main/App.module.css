@@ -33,6 +33,12 @@
     margin-bottom: 37px;
 }
 
+.hw3-container {
+    margin: 0 auto;
+    max-width: 1140px;
+    margin-bottom: 37px;
+}
+
 .initialMessages {
     display: grid;
     row-gap: 30px;
