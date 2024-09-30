@@ -4,9 +4,15 @@
   margin-top: 56px;
   min-height: 40px;
   position: relative;
+  margin-bottom: 35px;
 }
 
 .textarea {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+
   background-color: #F5F7FB;
   max-height: 80px;
   min-height: 100%;
@@ -22,6 +28,7 @@
   bottom: 0;
   left: 0;
   right: 164px;
+  box-shadow: 0px 1px 2px #1D21261A;
 }
 
 .textarea::placeholder {

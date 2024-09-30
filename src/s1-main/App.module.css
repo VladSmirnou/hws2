@@ -2,17 +2,23 @@
     --header_height: 60px;
 }
 
+.hw {
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+}
+
 .hw > div:nth-last-child(n + 2) {
     margin-bottom: 24px;
 }
 
 .hwTitle {
-    font-family: 'Montserrat';
-    font-style: normal;
+    font-family: Montserrat;
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
     color: #000000;
+    position: relative;
+    margin-bottom: 10px;
 }
 
 .container {
@@ -25,4 +31,5 @@
     display: grid;
     row-gap: 30px;
     margin-bottom: 30px !important;
+    margin-top: 24px;
 }
