@@ -17,7 +17,6 @@
     font-size: 22px;
     line-height: 27px;
     color: #000000;
-    position: relative;
     margin-bottom: 10px;
 }
 
@@ -40,6 +39,12 @@
 }
 
 .hw4-container {
+    margin: 0 auto;
+    max-width: 1140px;
+    margin-bottom: 37px;
+}
+
+.hw6-container {
     margin: 0 auto;
     max-width: 1140px;
     margin-bottom: 37px;
