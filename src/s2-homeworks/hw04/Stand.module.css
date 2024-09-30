@@ -1,7 +1,9 @@
 .stand {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 55px;
+    display: grid;
+    grid-template-columns: minmax(auto, 484px) auto 1fr;
+    column-gap: 20px;
 }
 
 .inputs {
@@ -17,7 +19,12 @@
 }
 
 .checkboxes {
+    justify-self: end;
     display: flex;
     flex-direction: column;
     gap: 36px;
+}
+
+.inpustWithErrorText {
+    gap: 31px;
 }

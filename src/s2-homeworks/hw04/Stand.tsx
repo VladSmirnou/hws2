@@ -12,7 +12,7 @@ const Stand = () => {
 
     return (
         <div id={'hw4-stand'} className={s.stand}>
-            <div className={s.inputs}>
+            <div className={!error ? s.inputs : s.inputs + ' ' + s.inpustWithErrorText}>
                 {/*совместим со старым кодом:*/}
                 <div>
                     <SuperInputText

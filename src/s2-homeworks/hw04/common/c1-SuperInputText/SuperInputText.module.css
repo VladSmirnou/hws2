@@ -5,9 +5,12 @@
     width: 100%;
     max-width: 372px;
     height: 36px;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
 }
 
 .inputWrapper {
+    display: grid;
 }
 
 .superInput {
@@ -21,5 +24,10 @@
 }
 
 .error {
-    color: red
+    color: red;
+    order: -1;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
 }
