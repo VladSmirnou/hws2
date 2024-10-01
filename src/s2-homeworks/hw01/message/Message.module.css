@@ -29,7 +29,7 @@
 }
 
 .text::before {
-  width: 12px;
+  width: 13px;
   height: 12px;
   background-color: #0066CC;
   position: absolute;

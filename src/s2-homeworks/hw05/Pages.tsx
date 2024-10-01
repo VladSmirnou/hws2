@@ -21,7 +21,7 @@ function Pages() {
                 {/*<Route ...*/}
                 <Route path='/' element={<Navigate to={PATH.PRE_JUNIOR} />} />
                 {/*роуты для /pre-junior, /junior, /junior-plus*/}
-                
+
                 <Route path={PATH.PRE_JUNIOR}  element={<PreJunior />} />
                 <Route path={PATH.JUNIOR} element={<Junior />} />
                 <Route path={PATH.JUNIOR_PLUS} element={<JuniorPlus />} />
