@@ -22,19 +22,20 @@
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   position: relative;
-  box-shadow: 2px 1px 2px 0px #1D21261A;
+  box-shadow: 8px -3px 5px -7px #1D21261A;
 }
 
 .friendText::before {
-  width: 12px;
   height: 12px;
-  background-color: #f5f7fb;
+  background-color: #F5F7FB;
   position: absolute;
   content: '';
   bottom: 0;
+  right: 0;
   left: -12px;
   z-index: -1;
-  box-shadow: 2px 1px 2px 0px #1D21261A;
+  border-bottom-right-radius: 10px;
+  box-shadow: 2px 1px 5px 0px #1D21261A
 }
 
 .friendText::after {
