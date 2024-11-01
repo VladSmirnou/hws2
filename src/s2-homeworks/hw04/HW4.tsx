@@ -11,7 +11,7 @@ import Stand from './Stand'
 
 const HW4 = () => {
     return (
-        <div id={'hw4'} className={s2['hw4-container']}>
+        <div id={'hw4'} className={s2['hw-container']}>
             <div className={s2.hwTitle}>Hometask №4</div>
             {/*демонстрация возможностей компонент:*/}
             <div className={s2.hw}>

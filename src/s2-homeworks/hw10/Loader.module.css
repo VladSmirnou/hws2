@@ -1,3 +1,18 @@
 .loader {
-    /*свг и/или анимация*/
+    width: 90px;
+    height: 90px;
+    background-image:
+        url(wheel.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation: spinner 1s linear infinite;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }

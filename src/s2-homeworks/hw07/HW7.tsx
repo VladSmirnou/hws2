@@ -21,7 +21,7 @@ const HW7 = () => {
     const [value, onChangeOption] = useState(1) // селект и радио должны работать синхронно
 
     return (
-        <div id={'hw7'} className={s2['hw7-container']}>
+        <div id={'hw7'} className={s2['hw-container']}>
             <div className={s2.hwTitle}>Hometask №7</div>
 
             {/*демонстрация возможностей компонент:*/}
