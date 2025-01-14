@@ -20,8 +20,8 @@ function HW11() {
     }
 
     return (
-        <div id={'hw11'}>
-            <div className={s2.hwTitle}>Homework #11</div>
+        <div id={'hw11'} className={s2['hw-container']}>
+            <div className={s2.hwTitle}>Hometask №11</div>
 
             <div className={s2.hw}>
                 <div className={s.container}>
@@ -44,7 +44,7 @@ function HW11() {
                             // сделать так чтоб value1/2 изменялось // пишет студент
 
                         />
-                        <span id={'hw11-value-2'} className={s.number}>{value2}</span>
+                        <span id={'hw11-value-2'} className={s.number + ' ' + s.maxNumber}>{value2}</span>
                     </div>
                 </div>
             </div>

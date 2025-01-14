@@ -1,6 +1,5 @@
-import React from 'react'
-import Clock from './Clock'
 import s2 from '../../s1-main/App.module.css'
+import Clock from './Clock'
 
 /*
 * 1 - в файле Clock.tsx дописать функции stop, start, onMouseEnter, onMouseLeave

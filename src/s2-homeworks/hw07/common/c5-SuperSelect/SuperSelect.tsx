@@ -32,7 +32,8 @@ const SuperSelect: React.FC<SuperSelectPropsType> = ({
                   key={o.id}
                   value={o.id}
               >
-                  {o.value}
+                  {typeof o.value === 'string' ? o.value[0].toUpperCase() + o.value.slice(1)
+                    : o.value}
               </option>
           ))
         : [] // map options with key

@@ -21,7 +21,7 @@ const getTechs = (find: string) => {
         )
         .catch((e) => {
             alert(e.response?.data?.errorText || e.message)
-        })
+         })
 }
 
 const HW14 = () => {
@@ -34,6 +34,11 @@ const HW14 = () => {
         setLoading(true)
         getTechs(value)
             .then((res) => {
+                if (res) {
+                    setTechs(res.data.techs)
+                }
+                setLoading(false)
+                setSearchParams({})
                 // делает студент
 
                 // сохранить пришедшие данные
@@ -44,6 +49,7 @@ const HW14 = () => {
 
     const onChangeText = (value: string) => {
         setFind(value)
+        setSearchParams({find: value})
         // делает студент
 
         // добавить/заменить значение в квери урла
@@ -65,22 +71,25 @@ const HW14 = () => {
     ))
 
     return (
-        <div id={'hw14'}>
-            <div className={s2.hwTitle}>Homework #14</div>
+        <div id={'hw14'} className={s2['hw-container']}>
+            <div className={s2.hwTitle}>Hometask №14</div>
 
             <div className={s2.hw}>
-                <SuperDebouncedInput
-                    id={'hw14-super-debounced-input'}
-                    value={find}
-                    onChangeText={onChangeText}
-                    onDebouncedChange={sendQuery}
-                />
+                <div className={s.loadingContainer}>
+                    <SuperDebouncedInput
+                        id={'hw14-super-debounced-input'}
+                        value={find}
+                        onChangeText={onChangeText}
+                        onDebouncedChange={sendQuery}
+                    />
 
-                <div id={'hw14-loading'} className={s.loading}>
-                    {isLoading ? '...ищем' : <br/>}
+                    <div id={'hw14-loading'} className={s.loading}>
+                        {isLoading ? '...ищем' : <br/>}
+                    </div>
                 </div>
-
-                {mappedTechs}
+                <div className={s.techContainer}>
+                    {mappedTechs}
+                </div>
             </div>
         </div>
     )

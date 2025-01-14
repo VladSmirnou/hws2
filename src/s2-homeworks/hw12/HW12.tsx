@@ -33,12 +33,13 @@ const HW12 = () => {
     }, [themeId])
 
     return (
-        <div id={'hw12'}>
+        <div id={'hw12'} className={s2['hw-container']}>
             <div id={'hw12-text'} className={s2.hwTitle}>
-                Homework #12
+                Hometask №12
             </div>
 
             <div className={s2.hw}>
+                <label htmlFor="hw12-select-theme" className={s.selectLabel}>Выберите тему</label>
                 <SuperSelect
                     id={'hw12-select-theme'}
                     className={s.select}

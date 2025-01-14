@@ -32,3 +32,18 @@
     margin-bottom: 30px !important;
     margin-top: 24px;
 }
+
+.buttonContainer {
+    padding-top: 42px;
+    padding-bottom: 264px;
+}
+
+.loaderContainer {
+    padding-top: 33px
+}
+
+@media only screen and (width < 900px) {
+    .hw-container {
+        padding: 0px 15px;
+    }
+}
